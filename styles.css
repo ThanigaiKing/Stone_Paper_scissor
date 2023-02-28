@@ -1,0 +1,75 @@
+*
+{
+    margin:0px;
+    padding:0px;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+body
+{
+    width:100%;
+    height:100vh;
+    background-image:url(background.jfif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 65% 65%;
+}
+marquee
+{
+    position:absolute;
+    top:8%;
+    animation:myname 5s linear 5s infinite alternate-reverse;
+}
+@keyframes myname
+{
+    0%{
+       color:black;
+    }
+    25%{
+        color:#008000;
+    }
+    50%
+    {
+        color:#4dd2ff;
+    }
+    75%
+    {
+        color:#cc0000;
+    }
+    100%
+    {
+        color:black;
+    }
+
+}
+.main{
+    width:35%;
+     height:40%;
+     /* background-color: aqua; */
+    position:absolute;
+    top:30%;
+    left:32%;
+}
+.main h2{
+    padding-top:10px;
+    color:white;
+    font-size:x-large;
+    font-weight: bolder;
+}
+.container
+{
+   position:absolute;
+   top:40px;
+   left:65px;
+}
+button{
+    margin-top:10px;
+    border:2px solid black;
+    outline:0;
+    padding:10px 20px;
+    border-radius:20px;
+    background:white;
+    font-size: medium;
+    font-weight:700;
+    color:black;
+}
